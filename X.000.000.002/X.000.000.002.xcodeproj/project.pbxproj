@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2323E694291C035600054C92 /* MakeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323E693291C035600054C92 /* MakeInput.swift */; };
+		23C978C6291D401400F548BC /* RagularCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C978C5291D401400F548BC /* RagularCalculationView.swift */; };
+		23C978C8291D402700F548BC /* TemperatureCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C978C7291D402700F548BC /* TemperatureCalculationView.swift */; };
+		23C978CA291D403500F548BC /* CurrencyCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C978C9291D403500F548BC /* CurrencyCalculationView.swift */; };
+		BA16BBAB2626393200BA42BE /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA16BBAA2626393200BA42BE /* Temperature.swift */; };
+		BA25ADEB27EA4D6E00BF611F /* ResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25ADEA27EA4D6E00BF611F /* ResultRow.swift */; };
+		BA25ADEF27EA648F00BF611F /* CategoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25ADEE27EA648F00BF611F /* CategoryType.swift */; };
+		BA25ADF127EA651000BF611F /* CategoriesCategoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25ADF027EA651000BF611F /* CategoriesCategoryType.swift */; };
+		BA25ADF327EA69AE00BF611F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25ADF227EA69AE00BF611F /* CategoryRow.swift */; };
+		BA2F733E262070AF006A3AF9 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F733D262070AF006A3AF9 /* SWXMLHash.swift */; };
+		BA2F734226207267006A3AF9 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F734126207267006A3AF9 /* SWXMLHash+TypeConversion.swift */; };
+		BA2F7345262072F3006A3AF9 /* shim.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F7344262072F3006A3AF9 /* shim.swift */; };
+		BA2F734E26207CDA006A3AF9 /* GetCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F734D26207CDA006A3AF9 /* GetCurrencies.swift */; };
+		BA3881DD27E926EC00B1F8D6 /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3881DC27E926EC00B1F8D6 /* UnitType.swift */; };
+		BA3881DF27E9277100B1F8D6 /* FactorsUnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3881DE27E9277100B1F8D6 /* FactorsUnitType.swift */; };
+		BA3881E127E92DB300B1F8D6 /* RegularCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3881E027E92DB300B1F8D6 /* RegularCalculation.swift */; };
+		BA3881E327E9301600B1F8D6 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3881E227E9301600B1F8D6 /* Categories.swift */; };
+		BA4F631D27F0CAF8009BE7BD /* CurrencyCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F631C27F0CAF8009BE7BD /* CurrencyCalculation.swift */; };
+		BA4F632127F0D2E3009BE7BD /* CurrencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F632027F0D2E3009BE7BD /* CurrencyType.swift */; };
+		BA4F632327F0D3F6009BE7BD /* CurrencyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F632227F0D3F6009BE7BD /* CurrencyRow.swift */; };
+		BA4F632527F0EA69009BE7BD /* CategoryCurrencyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F632427F0EA69009BE7BD /* CategoryCurrencyRow.swift */; };
+		BA4F632927F0ECD8009BE7BD /* CategoryTempratureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F632827F0ECD8009BE7BD /* CategoryTempratureRow.swift */; };
+		BA4F632B27F0ED7F009BE7BD /* TemperatureUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F632A27F0ED7F009BE7BD /* TemperatureUnits.swift */; };
+		BA4F632D27F0EF23009BE7BD /* TemperatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F632C27F0EF23009BE7BD /* TemperatureRow.swift */; };
+		BA97C023260FD4CE00CC2C24 /* X_000_000_002App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97C022260FD4CE00CC2C24 /* X_000_000_002App.swift */; };
+		BA97C025260FD4CE00CC2C24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97C024260FD4CE00CC2C24 /* ContentView.swift */; };
+		BA97C027260FD4CF00CC2C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA97C026260FD4CF00CC2C24 /* Assets.xcassets */; };
+		BA97C02A260FD4CF00CC2C24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA97C029260FD4CF00CC2C24 /* Preview Assets.xcassets */; };
+		BAA0282C2620B102001285F9 /* GeneralFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0282B2620B102001285F9 /* GeneralFunctions.swift */; };
+		BABA7C89262210C50049F795 /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA7C88262210C50049F795 /* Currencies.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2323E693291C035600054C92 /* MakeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeInput.swift; sourceTree = "<group>"; };
+		23C978C5291D401400F548BC /* RagularCalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagularCalculationView.swift; sourceTree = "<group>"; };
+		23C978C7291D402700F548BC /* TemperatureCalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalculationView.swift; sourceTree = "<group>"; };
+		23C978C9291D403500F548BC /* CurrencyCalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCalculationView.swift; sourceTree = "<group>"; };
+		BA16BBAA2626393200BA42BE /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		BA25ADEA27EA4D6E00BF611F /* ResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRow.swift; sourceTree = "<group>"; };
+		BA25ADEE27EA648F00BF611F /* CategoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryType.swift; sourceTree = "<group>"; };
+		BA25ADF027EA651000BF611F /* CategoriesCategoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCategoryType.swift; sourceTree = "<group>"; };
+		BA25ADF227EA69AE00BF611F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		BA2F733D262070AF006A3AF9 /* SWXMLHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		BA2F734126207267006A3AF9 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		BA2F7344262072F3006A3AF9 /* shim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shim.swift; sourceTree = "<group>"; };
+		BA2F734D26207CDA006A3AF9 /* GetCurrencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrencies.swift; sourceTree = "<group>"; };
+		BA3881DC27E926EC00B1F8D6 /* UnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
+		BA3881DE27E9277100B1F8D6 /* FactorsUnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorsUnitType.swift; sourceTree = "<group>"; };
+		BA3881E027E92DB300B1F8D6 /* RegularCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCalculation.swift; sourceTree = "<group>"; };
+		BA3881E227E9301600B1F8D6 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		BA4F631C27F0CAF8009BE7BD /* CurrencyCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCalculation.swift; sourceTree = "<group>"; };
+		BA4F632027F0D2E3009BE7BD /* CurrencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyType.swift; sourceTree = "<group>"; };
+		BA4F632227F0D3F6009BE7BD /* CurrencyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRow.swift; sourceTree = "<group>"; };
+		BA4F632427F0EA69009BE7BD /* CategoryCurrencyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCurrencyRow.swift; sourceTree = "<group>"; };
+		BA4F632827F0ECD8009BE7BD /* CategoryTempratureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTempratureRow.swift; sourceTree = "<group>"; };
+		BA4F632A27F0ED7F009BE7BD /* TemperatureUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureUnits.swift; sourceTree = "<group>"; };
+		BA4F632C27F0EF23009BE7BD /* TemperatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureRow.swift; sourceTree = "<group>"; };
+		BA97C01F260FD4CE00CC2C24 /* X.000.000.002.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = X.000.000.002.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA97C022260FD4CE00CC2C24 /* X_000_000_002App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X_000_000_002App.swift; sourceTree = "<group>"; };
+		BA97C024260FD4CE00CC2C24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA97C026260FD4CF00CC2C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA97C029260FD4CF00CC2C24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA97C02B260FD4CF00CC2C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA0282B2620B102001285F9 /* GeneralFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFunctions.swift; sourceTree = "<group>"; };
+		BABA7C88262210C50049F795 /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA97C01C260FD4CE00CC2C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2F733C26207072006A3AF9 /* DownloadXML */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F733D262070AF006A3AF9 /* SWXMLHash.swift */,
+				BA2F734126207267006A3AF9 /* SWXMLHash+TypeConversion.swift */,
+				BA2F7344262072F3006A3AF9 /* shim.swift */,
+			);
+			path = DownloadXML;
+			sourceTree = "<group>";
+		};
+		BA2F73472620792E006A3AF9 /* Calculation */ = {
+			isa = PBXGroup;
+			children = (
+				BA16BBAA2626393200BA42BE /* Temperature.swift */,
+				BA3881E027E92DB300B1F8D6 /* RegularCalculation.swift */,
+				BA4F631C27F0CAF8009BE7BD /* CurrencyCalculation.swift */,
+				BABA7C88262210C50049F795 /* Currencies.swift */,
+			);
+			path = Calculation;
+			sourceTree = "<group>";
+		};
+		BA2F73492620796C006A3AF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA3881E227E9301600B1F8D6 /* Categories.swift */,
+				BA4F632A27F0ED7F009BE7BD /* TemperatureUnits.swift */,
+				BA4F632027F0D2E3009BE7BD /* CurrencyType.swift */,
+				BA3881DC27E926EC00B1F8D6 /* UnitType.swift */,
+				BA25ADEE27EA648F00BF611F /* CategoryType.swift */,
+				BA3881DE27E9277100B1F8D6 /* FactorsUnitType.swift */,
+				BA25ADF027EA651000BF611F /* CategoriesCategoryType.swift */,
+				BA2F734D26207CDA006A3AF9 /* GetCurrencies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA48020C262B5B4A005D1C7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA97C016260FD4CE00CC2C24 = {
+			isa = PBXGroup;
+			children = (
+				BA97C021260FD4CE00CC2C24 /* X.000.000.002 */,
+				BA97C020260FD4CE00CC2C24 /* Products */,
+				BA48020C262B5B4A005D1C7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA97C020260FD4CE00CC2C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA97C01F260FD4CE00CC2C24 /* X.000.000.002.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA97C021260FD4CE00CC2C24 /* X.000.000.002 */ = {
+			isa = PBXGroup;
+			children = (
+				BA97C022260FD4CE00CC2C24 /* X_000_000_002App.swift */,
+				BA97C032260FD4FB00CC2C24 /* Views */,
+				BA2F73472620792E006A3AF9 /* Calculation */,
+				BA2F73492620796C006A3AF9 /* Model */,
+				BABD9D2626186CE000431765 /* Extensions */,
+				BAAF7D58262A2391009EDDB0 /* Recources */,
+				BA97C026260FD4CF00CC2C24 /* Assets.xcassets */,
+				BA97C02B260FD4CF00CC2C24 /* Info.plist */,
+				BA97C028260FD4CF00CC2C24 /* Preview Content */,
+			);
+			path = X.000.000.002;
+			sourceTree = "<group>";
+		};
+		BA97C028260FD4CF00CC2C24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA97C029260FD4CF00CC2C24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA97C032260FD4FB00CC2C24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA97C024260FD4CE00CC2C24 /* ContentView.swift */,
+				BA25ADF227EA69AE00BF611F /* CategoryRow.swift */,
+				BA4F632427F0EA69009BE7BD /* CategoryCurrencyRow.swift */,
+				BA4F632827F0ECD8009BE7BD /* CategoryTempratureRow.swift */,
+				BA25ADEA27EA4D6E00BF611F /* ResultRow.swift */,
+				BA4F632227F0D3F6009BE7BD /* CurrencyRow.swift */,
+				BA4F632C27F0EF23009BE7BD /* TemperatureRow.swift */,
+				2323E693291C035600054C92 /* MakeInput.swift */,
+				23C978C5291D401400F548BC /* RagularCalculationView.swift */,
+				23C978C7291D402700F548BC /* TemperatureCalculationView.swift */,
+				23C978C9291D403500F548BC /* CurrencyCalculationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAAF7D58262A2391009EDDB0 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F733C26207072006A3AF9 /* DownloadXML */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		BABD9D2626186CE000431765 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BAA0282B2620B102001285F9 /* GeneralFunctions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA97C01E260FD4CE00CC2C24 /* X.000.000.002 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA97C02E260FD4CF00CC2C24 /* Build configuration list for PBXNativeTarget "X.000.000.002" */;
+			buildPhases = (
+				BA97C01B260FD4CE00CC2C24 /* Sources */,
+				BA97C01C260FD4CE00CC2C24 /* Frameworks */,
+				BA97C01D260FD4CE00CC2C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = X.000.000.002;
+			productName = X.000.000.002;
+			productReference = BA97C01F260FD4CE00CC2C24 /* X.000.000.002.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA97C017260FD4CE00CC2C24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BA97C01E260FD4CE00CC2C24 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BA97C01A260FD4CE00CC2C24 /* Build configuration list for PBXProject "X.000.000.002" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA97C016260FD4CE00CC2C24;
+			productRefGroup = BA97C020260FD4CE00CC2C24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA97C01E260FD4CE00CC2C24 /* X.000.000.002 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA97C01D260FD4CE00CC2C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA97C02A260FD4CF00CC2C24 /* Preview Assets.xcassets in Resources */,
+				BA97C027260FD4CF00CC2C24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA97C01B260FD4CE00CC2C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4F632527F0EA69009BE7BD /* CategoryCurrencyRow.swift in Sources */,
+				BA2F7345262072F3006A3AF9 /* shim.swift in Sources */,
+				2323E694291C035600054C92 /* MakeInput.swift in Sources */,
+				BA25ADEB27EA4D6E00BF611F /* ResultRow.swift in Sources */,
+				BA25ADF327EA69AE00BF611F /* CategoryRow.swift in Sources */,
+				BA3881DF27E9277100B1F8D6 /* FactorsUnitType.swift in Sources */,
+				23C978C6291D401400F548BC /* RagularCalculationView.swift in Sources */,
+				BA2F734226207267006A3AF9 /* SWXMLHash+TypeConversion.swift in Sources */,
+				BA2F734E26207CDA006A3AF9 /* GetCurrencies.swift in Sources */,
+				BAA0282C2620B102001285F9 /* GeneralFunctions.swift in Sources */,
+				BA4F631D27F0CAF8009BE7BD /* CurrencyCalculation.swift in Sources */,
+				BA4F632D27F0EF23009BE7BD /* TemperatureRow.swift in Sources */,
+				BA2F733E262070AF006A3AF9 /* SWXMLHash.swift in Sources */,
+				BA4F632927F0ECD8009BE7BD /* CategoryTempratureRow.swift in Sources */,
+				BA25ADF127EA651000BF611F /* CategoriesCategoryType.swift in Sources */,
+				23C978C8291D402700F548BC /* TemperatureCalculationView.swift in Sources */,
+				23C978CA291D403500F548BC /* CurrencyCalculationView.swift in Sources */,
+				BA4F632127F0D2E3009BE7BD /* CurrencyType.swift in Sources */,
+				BA3881DD27E926EC00B1F8D6 /* UnitType.swift in Sources */,
+				BA4F632327F0D3F6009BE7BD /* CurrencyRow.swift in Sources */,
+				BA4F632B27F0ED7F009BE7BD /* TemperatureUnits.swift in Sources */,
+				BA97C025260FD4CE00CC2C24 /* ContentView.swift in Sources */,
+				BA3881E127E92DB300B1F8D6 /* RegularCalculation.swift in Sources */,
+				BABA7C89262210C50049F795 /* Currencies.swift in Sources */,
+				BA3881E327E9301600B1F8D6 /* Categories.swift in Sources */,
+				BA16BBAB2626393200BA42BE /* Temperature.swift in Sources */,
+				BA97C023260FD4CE00CC2C24 /* X_000_000_002App.swift in Sources */,
+				BA25ADEF27EA648F00BF611F /* CategoryType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA97C02C260FD4CF00CC2C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA97C02D260FD4CF00CC2C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA97C02F260FD4CF00CC2C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"X.000.000.002/Preview Content\"";
+				DEVELOPMENT_TEAM = 92S66MT2R5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = X.000.000.002/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joeldevelop.X-000-000-002-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA97C030260FD4CF00CC2C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"X.000.000.002/Preview Content\"";
+				DEVELOPMENT_TEAM = 92S66MT2R5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = X.000.000.002/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joeldevelop.X-000-000-002-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA97C01A260FD4CE00CC2C24 /* Build configuration list for PBXProject "X.000.000.002" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA97C02C260FD4CF00CC2C24 /* Debug */,
+				BA97C02D260FD4CF00CC2C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA97C02E260FD4CF00CC2C24 /* Build configuration list for PBXNativeTarget "X.000.000.002" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA97C02F260FD4CF00CC2C24 /* Debug */,
+				BA97C030260FD4CF00CC2C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA97C017260FD4CE00CC2C24 /* Project object */;
+}
